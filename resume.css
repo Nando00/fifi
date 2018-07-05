@@ -1,0 +1,216 @@
+@import "import-styles.css"
+* {
+  box-sizing: border-box;
+}
+
+
+body{
+  font-family:"Arial";
+}
+img {
+  border: solid 4px black;
+  border-radius: 50%;
+  transition: all .5s;
+  max-width: 100%;
+}
+
+
+body {
+  text-align: center;
+  line-height: 1.5;
+
+}
+
+ul, ol, li{
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+}
+li{
+  display: inline-block;
+}
+footer{
+  color:brown;
+  text-align: center;
+}
+.edu{
+  color:#39FF5D;
+  line-height: 30px;
+  width:300px;
+  font-family: 'Shadows Into Light', cursive;
+  padding: 10% 10%;
+  border:red solid 10px;
+  margin:120px auto;
+  border-radius: 20%;
+  background:linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),url("https://placeimg.com/640/480/tech");
+  background-size: cover;
+  background-position: center;
+  box-shadow: 5px 15px 10px 20px gray;
+}
+.sum{
+  width:300px;
+  font-family: 'Shadows Into Light', cursive;
+  color:#00B0F7;
+  padding: 10% 10%;
+  border:orange solid 10px;
+  margin:200px auto;
+  background-color:gray;
+  border-radius: 20%;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),url("https://placeimg.com/640/480/arch");
+  background-position: center;
+  background-size: cover;
+  box-shadow: 5px 15px 10px 20px gray;
+}
+
+.awards{
+  width:300px;
+  color:#F000F7;
+  font-family: 'Roboto Slab', serif;
+  padding: 10% 10%;
+  border:orange solid 10px;
+  margin:120px auto;
+  border-radius: 20%;
+  background:linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),url("https://placeimg.com/640/480/people");
+  background-position: center;
+  background-size: cover;
+  box-shadow: 5px 15px 10px 20px gray;
+}
+
+
+.main-content{
+padding-top:170px;
+height:1000px;
+background:linear-gradient(0deg, white, transparent ),
+          orange url('https://placeimg.com/640/480/nature') no-repeat center;
+background-size:cover;
+
+}
+
+.discription{
+  width:800px;
+  font-size:25px;
+  border: ;
+  padding: 30px 200px;
+  margin: -40px auto;
+  font-family: 'Cuprum', sans-serif;
+}
+#title-front{
+  width:600px;
+  padding: 70px 300px;
+  margin: -30px auto;
+  border: ;
+  font-family: 'Cuprum', sans-serif;
+  font-size: 50px;
+}
+#main-img{
+    border: solid 4px black;
+    border-radius: 50%;
+    transition: all .5s;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#main-img:hover{
+  transform:rotate(120deg);
+}
+
+
+nav{
+  overflow: hidden;
+   background-color: #F68E78;
+   position: fixed; /* Set the navbar to fixed position */
+   top: -10px; /* Position the navbar at the top of the page */
+   width: 100%; /* Full width */
+}
+  }
+#na-top{
+  list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+}
+#li-top{
+   float: left;
+   background:#F68E78;
+}
+#li-top #a-top{
+  display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+
+}
+#li-top #a-top:hover {
+    background-color: #111;
+
+}
+
+
+}
+.thepic{
+width:50%;
+
+}
+
+.me{
+
+  width:600px;
+  height:250px;
+}
+/* media queries --
+@media (max-width:960px ){
+body{background: red;
+}
+p{
+
+  color:white;}
+}
+@media(max-width:480px){
+  body{
+
+
+  }
+}
+-----*/
+@media(max-width: 1024px){
+.primary-content,
+.main-content{
+width:90%;
+}
+}
+@media(max-width: 768px){
+  .primary-content,
+  .main-content{
+  width:100%;
+  padding:20px;
+  border:none;
+  }
+  header{
+    max-height:380px;
+    padding:50px 25px 0;
+  }
+  h1,h2{
+font-size: 2rem;
+line-height:1.1;
+
+  }
+  ul,ol, li{
+    font-size:15px;
+  }
+  .sum, .edu,.awards{
+    padding:10% 12%;
+  }
+
+  img{
+    width:60%;
+  }
+}
